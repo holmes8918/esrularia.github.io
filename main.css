@@ -1,11 +1,17 @@
 
 body {
-    background-color: #dde6d5;
+    background-image: url('dalelands-vista.jpg');
 }
 
 .title {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #667b68;
+    font-family:cursive;
+    color: #ddd;
+    text-align: center;
+    text-shadow: 1px 1px 0 #000;
+    padding: 0px;
+    margin: 10px;
+    background-color: #667b68;
+    outline: 3px double;
 }
 
 
