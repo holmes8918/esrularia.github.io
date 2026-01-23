@@ -1,17 +1,16 @@
 
 body {
-    background-image: url('dalelands-vista.jpg');
+    background-image: url('images/dalelands-vista.jpg');
 }
 
 .title {
     font-family:cursive;
-    color: #ddd;
+    color: #a3b899;
     text-align: center;
-    text-shadow: 1px 1px 0 #000;
+    text-shadow: 1px 1px 5px #000;
     padding: 0px;
     margin: 10px;
-    background-color: #667b68;
-    outline: 3px double;
+    font-size: 3.5em;
 }
 
 
@@ -21,7 +20,8 @@ body {
   background-color: #a3b899;
   overflow: hidden;
   width: 100%;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+  font-family:monospace;
+  border-radius: 10px 10px 0px 0px;
 }
 
 /* Style the links inside the navigation bar */
@@ -30,9 +30,10 @@ body {
   color: #f2f2f2;
   text-align: center;
   width: 20%;
-  padding: 5px 0px;
+  padding: 10px 0px;
   text-decoration: none;
   font-size: 17px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 /* Change the color of links on hover */
@@ -45,4 +46,37 @@ body {
 .topnav a.active {
   background-color: #667b68;
   color: white;
+}
+
+/* add main body of index.html */
+.main {
+  background-color: #667b68;
+  color: #ddd;
+  font-family:monospace;
+  padding-bottom: 25px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* remove margins */
+h1{
+  margin: 0px;
+  padding: 25px 25px 10px;
+}
+
+h3{
+  margin: 15px 0px 15px;
+}
+
+.recap {
+  margin: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+}
+
+footer {
+  background-color: #a3b899;
+  margin: 15px 0px 0px 0px;
+  padding: 0px;
+  color:  #a3b899;
 }
